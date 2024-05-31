@@ -11,7 +11,7 @@ body{
   margin: 0 auto;
   text-align: center;
   background-image: url('./assets/popcorn.png'); 
-  background-size: contain; 
+  background-size: cover; 
   background-position: center; 
   backdrop-filter: blur(10px);
   box-shadow: rgb(33 150 243 / 68%) 0px 0px 1rem 2px;
@@ -179,4 +179,27 @@ p.author a {
   text-decoration: none;
   font-weight: 700;
   color: #000;
+}
+
+
+@media (max-width: 600px) {
+  .App {
+    width: 100%;
+  }
+  .main-form {
+    gap: 20px;
+  }
+  .balance {
+    margin-left: 12px;
+  }
+  .add-subscription {
+    margin-right: 14px;
+  }
+  .single-item img {
+    width: 90px;
+    margin-left: 8px;
+  }
+  .single-item a {
+    margin-right: 4px;
+  }
 }
