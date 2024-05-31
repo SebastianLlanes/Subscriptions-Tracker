@@ -94,6 +94,9 @@ p.error {
 }
 .add-subscription h3 {
   margin-top: 0;
+  color: white;
+  backdrop-filter: blur(10px);
+  
 }
 
 .add-subscription form select {
@@ -132,6 +135,7 @@ p.error {
   color: #060708;
 }
 .add-subscription h2 {
+  color: white;
   backdrop-filter: blur(10px);
 }
 /* single item */
