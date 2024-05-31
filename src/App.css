@@ -134,7 +134,7 @@ p.error {
   background-color: #fff;
   color: #060708;
 }
-.add-subscription h2 {
+.main-form h2 {
   color: white;
   backdrop-filter: blur(10px);
 }
