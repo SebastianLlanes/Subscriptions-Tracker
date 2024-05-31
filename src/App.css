@@ -88,7 +88,7 @@ p.error {
 
 .add-subscription form p {
   font-weight: 400;
-  color: black;
+  color: white;
   margin-bottom: 4px;
   backdrop-filter: blur(10px);
 }
@@ -130,6 +130,9 @@ p.error {
 .add-subscription input[type="submit"]:hover {
   background-color: #fff;
   color: #060708;
+}
+.add-subscription h2 {
+  backdrop-filter: blur(10px);
 }
 /* single item */
 .single-item {
